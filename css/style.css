@@ -76,3 +76,139 @@ line-height: 100%;
   margin-top: 20px;
   align-self: flex-end;
 }
+main{
+    width: 1271px;
+    margin: auto;
+}
+.sectionkurs {
+    width: 1166px;
+}
+  h1 {
+    font-weight: bold;
+    font-size: 55px;
+  }
+  .section1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .left {
+    width: 662px;
+  }
+  .left p {
+    font-size: 24px;
+  }
+  .right {
+    width: 314px;
+    height: 315px;
+  }
+  .right img {
+    width: 100%;
+  }
+  .section2 {
+    width: 1002px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footerimg {
+    width: 232px;
+    height: 203px;
+  }
+  .footerdiv {
+    display: flex;
+    justify-content: space-between;
+    width: 638px;
+    margin-top: 70px;
+  }
+  .divdaxil {
+    width: 33%;
+  }
+  .divdaxil p {
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .divdaxil span {
+    font-size: 18px;
+  }
+  
+  @media (max-width: 1250px) {
+    main {
+      width: 675px;
+    }
+    .left {
+      width: 383px;
+    }
+    h1 {
+      font-size: 32px;
+    }
+    .left p {
+      font-size: 14px;
+    }
+    .right {
+      width: 181px;
+    }
+    .section2 {
+      width: 369px;
+    }
+    .footerimg {
+      display: none;
+    }
+    .divdaxil p {
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+    .divdaxil span {
+      font-size: 11px;
+    }
+  }
+  @media (max-width: 800px) {
+    main {
+      width: 80%;
+    }
+    .section1 {
+      flex-wrap: wrap;
+    }
+    .left {
+      width: 100%;
+    }
+    h1 {
+      font-size: 26px;
+    }
+    .left p {
+      font-size: 12px;
+    }
+    .right {
+      width: 170px;
+      height: 160px;
+      margin: auto;
+    }
+    .section2 {
+      width: calc(100% - 50px);
+    }
+    .footerdiv {
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      box-sizing: border-box;
+      gap: 10px 0px;
+    }
+    .footerimg {
+      display: none;
+    }
+    .divdaxil {
+      width: 48%;
+    }
+    .divdaxil p {
+      font-size: 12px;
+    }
+    .divdaxil span {
+      font-size: 10px;
+    }
+  }
+  @media (max-width:400px){
+      .section2{
+          width: 100%;
+      }
+  }
