@@ -1,1 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+header {
+  width: 1271px;
+  margin: auto;
+}
+.logo {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.logo img {
+  width: 112px;
+  height: 66px;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 509px;
+  margin: 0px;
+  padding: 0px;
+  height: 36px;
+}
+header ul li {
+  list-style: none;
+}
+header ul a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  padding-left: 14px;
+}
