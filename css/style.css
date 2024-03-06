@@ -3,7 +3,7 @@ body{
   font-family: roboto;
 }
 header {
-  width: 1075px;
+  width: 1270px;
   margin:0px auto;
 }
 .logo {
@@ -33,7 +33,7 @@ header ul a {
   padding-left: 14px;
 }
 .section--1{
-  width: 1075px;
+  width: 1270px;
   margin: 29px auto 0 auto;
   display: flex;
   justify-content: space-between;
@@ -43,6 +43,7 @@ header ul a {
 }
 .section--1 .right{
   width: 305px;
+  height: 380px;
  }
 .section--1 h1{
   margin: 0px;
@@ -77,7 +78,7 @@ line-height: 100%;
   align-self: flex-end;
 }
 main{
-    width: 1271px;
+    width: 1270px;
     margin: auto;
 }
 .sectionkurs {
@@ -132,6 +133,43 @@ main{
   .divdaxil span {
     font-size: 18px;
   }
+.section--4{
+  width: 1270px;
+  margin: 150px auto 0 auto;
+}
+ h2{
+  margin: 0;
+  font-size: 55px;
+}
+.section--4 h4{
+  font-size: 25px;
+  line-height: 130%;
+  color: #1E4681;
+  margin: 0px;
+}
+.section--4 p{
+  margin: 0px;
+  font-size: 18px;
+  line-height: 130%;
+}
+.section--4>div{
+  margin-top: 90px;
+  width: 975px;
+  display: flex;
+  justify-content: space-between;
+}
+.section--5{
+  width: 1270px;
+  margin: 180px auto 0 auto;
+}
+.section--5>ul{
+  font-size: 24px;
+  line-height: 150%;
+  width: 660px;
+}
+
+
+
   
   @media (max-width: 1250px) {
     main {
