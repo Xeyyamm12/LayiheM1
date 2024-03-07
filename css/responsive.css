@@ -1,6 +1,12 @@
 @media (max-width: 1280px) {
   main {
-    width: 675px;
+    width: 100%;
+    padding: 0 auto;
+  }
+  .section--3{
+    width:675px ;
+    padding-right: 15px;
+       margin: auto;
   }
   .left {
     width: 383px;
@@ -30,7 +36,12 @@
 }
 @media (max-width: 992px) {
   main {
-    width: 80%;
+    width: 100%;
+  }
+  .section--3{
+    width:309px ;
+    padding-right: 1px;
+       margin: auto;
   }
   .section1 {
     flex-wrap: wrap;
@@ -75,11 +86,94 @@
 
 
 @media (max-width: 1280px) and (min-width:992px) {
+  header {
+    width: 675px;
+  }
+  .logo {
+    margin-bottom: 55px;
+  }
+  .logo img {
+    width: 65px;
+    height: 38px;
+  }
+  header ul {
+    width: 295px;
+    height: 20px;
+  }
+  header ul a {
+    font-size: 12px;
+  }
+  header ul li img {
+    width: 12px;
+  }
+  .section--1{
+    width: 641px;
+    margin: 8px auto 0 auto;
+    padding-right: 34px;
+  }
+  .section--1 .left{
+    width: 364px;
+   }
+   .section--1 .right{
+     width: 176px;
+     height: 206px;
+    }
+    .section--1 h1{
+      font-size: 46px;
+    }
+    .section--1 p{
+      width: 264px;
+      font-size: 12px;
+    }
+    .section--2{
+      width: 280px;
+      height: 115px;
+      box-sizing: border-box;
+      padding: 11px;
+      margin: 40px auto;
+      border-radius: 3px;
+    }
+    .section--2 p{
+      margin: 0px;
+      font-size: 14px;
+    }
+    .section--2 p:last-child{
+      margin-top:9 ;
+      align-self: flex-end;
+    }
+    .section--4{
+      width: 565px;
+      padding-right: 125px;
+      margin: 100px auto 0 auto;
+    }
+    h2{
+      font-size: 32px;
+    }
+    .section--4 h4{
+      font-size: 15px;
+    }
   .section--6 {
     width: 736px;
     margin-top: 128px;
     margin-bottom: 105px;
   }
+  .section--4 p{
+    font-size: 11px;
+  }
+  .section--4>div{
+    margin-top: 50px;
+    width: 565px;
+  }
+  .section--5{
+    width: 393px;
+    padding-right:297px ;
+    margin: 105px auto 0 auto;
+  }
+  .section--5>ul{
+    font-size: 14px;
+    width: 383px;
+  }
+  
   .section--6 > h2 {
     font-size: 32px;
     margin-left: 21px;
@@ -146,6 +240,95 @@
   }
 }
 @media (max-width: 991px) and (min-width:320px) { 
+  header {
+    width: 310px;
+  }
+  .logo {
+    margin-bottom: 45px;
+  }
+  .logo img {
+    width: 52px;
+    height: 30px;
+  }
+  header ul {
+    width: 237px;
+    height: 15px;
+  }
+  header ul a {
+    font-size: 10px;
+  }
+  header ul li img {
+    width: 10px;
+  }
+  .section--1{
+    width: 307px;
+    margin: 8px auto 0 auto;
+    padding-right: 3px;
+    flex-wrap: wrap;
+  }
+  .section--1 .left{
+    width: 292px;
+   }
+   .section--1 .right{
+     width: 141px;
+     height: 175px;
+     justify-self: end;
+    }
+    .section--1 h1{
+      font-size: 37px;
+    }
+    .section--1 p{
+      width: 212px;
+      font-size: 10px;
+    }
+    .section--2{
+      width: 225px;
+      height: 93px;
+      box-sizing: border-box;
+      padding: 10px;
+      margin: 38px auto 75px auto;
+      border-radius: 2.3px;
+    }
+    .section--2 p{
+      margin: 0px;
+      font-size: 11px;
+    }
+    .section--2 p:last-child{
+      margin-top:6px ;
+      align-self: flex-end;
+    }
+    .section--4{
+      width: 308px;
+      padding-right: 2px;
+      margin: 75px auto 0 auto;
+    }
+    h2{
+      font-size: 26px;
+    }
+    .section--4 h4{
+      font-size: 12px;
+    }
+  .section--4 p{
+    font-size: 10px;
+  }
+  .section--4>div{
+    margin-top: 0px;
+    width: 180px;
+    flex-wrap: wrap;
+  }
+  .section--4>div>div{
+    margin-top: 20px;
+  }
+  .section--5{
+    width: 310px;
+    padding-right:0px ;
+    margin: 75px auto 0 auto;
+  }
+  .section--5>ul{
+    font-size: 12px;
+    width: 310px;
+  }
+  
   .section--6 {
     width: 310px;
     margin-top: 61px;

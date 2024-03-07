@@ -29,10 +29,10 @@ header ul li {
   list-style: none;
 }
 header ul a {
+  margin: 0px;
   text-decoration: none;
   font-size: 20px;
   color: black;
-  padding-left: 14px;
 }
 .section--1{
   width: 1270px;
@@ -67,7 +67,6 @@ line-height: 100%;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-
 }
 .section--2 p{
   color: #ffffff;
@@ -85,9 +84,6 @@ main{
 .section--3{
   width:1270px ;
      margin: auto;
-}
-.sectionkurs {
-    width: 1166px;
 }
   h1 {
     font-weight: bold;
