@@ -1,4 +1,4 @@
-@media (max-width: 1250px) {
+@media (max-width: 1280px) {
   main {
     width: 675px;
   }
@@ -28,7 +28,7 @@
     font-size: 11px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 992px) {
   main {
     width: 80%;
   }
@@ -72,13 +72,9 @@
     font-size: 10px;
   }
 }
-@media (max-width: 400px) {
-  .section2 {
-    width: 100%;
-  }
-}
 
-@media (max-width: 1300px) and (min-width:850px) {
+
+@media (max-width: 1280px) and (min-width:992px) {
   .section--6 {
     width: 736px;
     margin-top: 128px;
@@ -149,83 +145,7 @@
     width: 18px;
   }
 }
-
-@media (max-width: 850px) and (min-width:500px) {
-  .section--6 {
-    width:480px;
-    margin-top: 128px;
-    margin-bottom: 105px;
-  }
-  .section--6 > h2 {
-    font-size: 28px;
-    margin-left: 0px;
-  }
-  .section--6 > div {
-    margin-top: 66px;
-    justify-content: space-between;
-  }
-  .divsection {
-    width: 47%;
-    height: 200px;
-    margin-right: 0;
-    margin-bottom: 0px;
-  }
-  .divsection > p {
-    font-size: 17px;
-    margin-bottom: 18px;
-    margin-top: 6px;
-    margin-left: 12px;
-  }
-  .divsection > span {
-    font-size: 14px;
-    margin-left: 12px;
-  }
-
-  .section--7 {
-    padding: 52px 0px 73px 0px;
-  }
-  .section--7 > div {
-    width: 480px;
-    padding-left: 22px;
-  }
-  .section--7 >div> h2 {
-    font-size: 28px ;
-  }
-  .infoconteiner {
-    width: 458px;
-    height: 261px;
-    margin-left: 2px;
-    margin-top: 31px;
-    display: flex;
-  }
-  .divinfo {
-    width: calc(100% - 54px);
-  }
-
-  .divtop > p {
-    font-size: 12px;
-    margin-left: 11px;
-    margin-bottom: 15px;
-  }
-
-  .bottomimg {
-    width: 110px;
-    height: 97px;
-    margin-right: 23px;
-  }
-  .bottominfo p {
-    font-size: 17px;
-    margin-top: 23px;
-    margin-bottom: 12px;
-  }
-  .bottominfo >img{
-    width: 16px;
-  }
-}
-
-
-
-@media (max-width:500px) and (min-width:320px) {
+@media (max-width: 991px) and (min-width:320px) { 
   .section--6 {
     width: 310px;
     margin-top: 61px;
