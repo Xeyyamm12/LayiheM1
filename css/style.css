@@ -218,68 +218,448 @@ main{
   display: block;
   margin-left: 19px;
 }
+/* x */
 
-
-.section--7{
-width: 100%;
-background-color: #EFEFEF;
-padding: 81px 0px 121px 0px;
+.Xeyyam{
+  background: #9DC9C8;
+  padding: 90px 0;
 }
-.section--7>div{
-width: 1270px;
-margin: auto;
-padding: 37px;
-
-}
-.section--7>h2{
-font-size: 55px;
-font-weight: bold;
-margin: 0px;
-}
-.infoconteiner{
-width: 791px;
-height: 451px;
-margin-left: 4px;
-margin-top: 53px;
-box-sizing: border-box;
-display: flex;
-background-color: white;
-justify-content: center;
-align-items: center;
-border-radius: 30px;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.divinfo{
-width: calc(100% - 90px);
-margin: auto;
-}
-.divtop{
-width: 100%;
-}
-.divtop>p{
-font-size: 20px;
-margin: 0px;
-margin-left: 19px;
-margin-bottom: 33px;
-
-}
-.divbottom{
-width: 100%;
-display: flex;
-
-}
-.bottomimg{
-margin-right: 30px;
-}
-.bottominfo p{
-font-size: 30px;
-font-weight: bold;
-margin-top: 40px;
-margin-bottom: 20px;
-}
-.bottominfo img:hover{
-cursor: pointer;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-
-}
+.xmain{
+  width:85%;
+  margin:auto;
+  height: 530px;
+  flex-shrink: 0;
+  /* padding: 179px 410px 185px 122px; */
+  }
+  .xcourse{
+      width: 908px;
+  height: 66px;
+  flex-shrink: 0;
+      color: #000;
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.385%; /* 55.762px */
+  margin-bottom: 54px;
   
+  }
+  .xone{
+  width: 170px;
+  height: 32px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 25.346px */
+  }
+  .xnumber{
+      width: 481px;
+  height: 158px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 81.108px */
+  margin-top: -10px;
+  margin-bottom: 0px;
+  }
+  .xtwo{
+      width: 294px;
+  height: 32px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 25.346px */
+  }
+  .xthree{
+      width: 294px;
+  height: 70px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 18.249px */
+  }
+  .xfour{
+      width: 322px;
+  height: 32px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 25.346px */
+  }
+  .xfive{
+      width: 294px;
+  height: 70px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 18.249px */
+  }
+  .xcommon{
+      display: flex;
+      justify-content: space-between;
+      width:40%;
+  }
+  .xright{
+      padding-left: 70px;
+  }
+  @media  screen and (max-width:1280px) and (min-width:992px) {
+      .xcourse{
+          width: 500px;
+          height: 38px;
+          font-size: 32px;
+          margin-bottom: 31px;
+      }
+      .xmain{
+          height: 400px;
+      }
+      .xone{
+          width: 98px;
+          height: 18px;
+          font-size: 16px;
+          margin: 10px 0;
+      }
+      .xnumber{
+          width: 278px;
+          height: 104px;
+          font-size: 46px;
+      }
+      .xtwo .xfour{
+          width: 170px;
+          height: 18px;
+          font-size: 14px;
+      }
+      .xthree .xfive{
+          width: 170px;
+          height: 40px;
+          font-size: 10px;
+      }
+      .xtwo .xfour{
+          margin-bottom: 5px;
+          margin-right: 40px;
+      }
+      .xthree{
+          margin-right: 40px;
+      }
+      .xcommon{
+          margin-bottom: 80px;
+      }
+  }
+  @media screen and (max-width:992px) and (min-width:320px) {
+      .xmain{
+          height: 350px;
+      }
+      
+      .xcourse{
+          width: 45%;
+          height: 63px;
+          font-size: 26px;
+          margin-bottom: 20px;
+      }
+      .xone{
+          width: 79px;
+          height: 14px;
+          font-size: 14px;
+          margin-bottom: 14px;
+      }
+      .xnumber{
+        width: 224px;
+        height: 84px;
+        font-size: 37px;
+      }
+      .xtwo{
+          width: 151px;
+          height: 14px;
+          font-size: 16px;
+          margin-bottom: 10px;
+      }
+      .xthree{
+          width: 150px;
+          height: 35px;
+          font-size: 14px;
+      }
+      .xfour{
+          width: 151px;
+          height: 14px;
+          font-size: 16px;
+          margin-bottom: 10px;
+      }
+      .xfive{
+          width: 140px;
+          height: 38px;
+          font-size: 13px;
+      }
+      .xright{
+          margin-left: 30px;
+      }
+  
+  }
+  @media screen and (max-width:440px) and (min-width:320px){
+      .xcommon{
+          flex-direction: column;
+      }
+      .xthree{
+          width:200px;
+          height:80px;
+      }
+      .xfive{
+          width:160px;
+      }
+      .xright{
+          padding-left:0px;
+          margin-left:0px;
+      }
+      .xcourse{
+          height:84px;
+      }
+
+  }
+  footer{
+      width: 100%;
+    height: 390px;
+  flex-shrink: 0;
+  background: #000;
+  }
+  .footer-container{
+      width:85%;
+      margin: auto;
+  }
+  .xlogo{
+      width: 115px;
+  height: 68px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  }
+  .xplus{
+      width: 230px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  }
+  .xmail{
+  width: 269px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  }
+  .xlast{
+      width: 230px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 18.249px */
+  margin-top: 100px;
+  padding-top: 42px;
+  }
+  .xbig{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 50px;
+      flex-wrap: wrap;
+  }
+  .xphone{
+      display: flex;
+      margin-top: 59px;
+      align-items: baseline;
+  }
+  .xwhite{
+      display: flex;
+      align-items: baseline;
+  }
+  .xphone img{
+      margin-right: 18px;
+  }
+  .xwhite img{
+      margin-right: 18px;
+  }
+  .xphotos img{
+      margin-right: 18px;
+  }
+  .right1{
+      height: 200px;
+      width: 35%;
+      text-align: end;
+  }
+  .xleft1{
+      width: 55%;
+  }
+  @media  screen and (max-width:1279px) and (min-width:992px) {
+      .xbig{
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          margin-bottom: 50px;
+          padding-top: 40px;
+      }
+      .xleft1{
+          flex-grow: 1;
+          width: 55%;
+          margin-left: 15px;
+      }
+      .right1{
+          margin-left: 20px;
+          margin-top: 20px;
+          height: auto;
+          width: 35%;
+      }
+      .xlast{
+          width: 85%;
+          height: 19px;
+          /* margin-left: 50px; */
+          margin-top:0px;
+          padding: 0;
+          font-size: 16px;
+          text-align: start;
+      }
+      .xlogo{
+          width: 66px;
+          height: 39px;
+          margin-top: 29px;
+          margin-bottom: 0px;
+      }
+      .xphotos img{
+          width: 19px;
+          height: 19px;
+          margin-right: 10px;
+          margin-top: 17px;
+          margin-bottom: 85px;
+      
+      }
+      .xphone img{
+          width: 15px;
+          height: 15px;
+          margin-right: 10px;
+          margin-top: 0px;
+      }
+      .xphone{
+          margin-top:0px;
+      }
+      .xphotos{
+          margin-bottom: 0px;
+      }
+      .xwhite img{
+          width: 15px;
+          height: 10px;
+          margin-top: 14px;
+      }
+      .xplus{
+          width: 133px;
+          height: 23px;
+          font-size: 14px;
+          margin-top: 0px;
+      }
+      .xmail{
+          width: 155px;
+          height: 23px;
+          font-size: 14px;
+      }
+      .xlast{
+          width: 85%;
+          height: 19px;
+          /* margin-left: 50px; */
+          margin-top:0px;
+          padding: 0;
+          font-size: 16px;
+          text-align: start;
+          padding-left: 15px;
+      }
+      .footer{
+          width: 100%;
+          height: 320px;
+      }
+  
+  }
+  @media screen and (max-width:991px) and (min-width:320px) {
+      .xlogo{
+          width: 53px;
+          height: 31px;
+          margin-top: 23px;
+          margin-bottom: 0px;
+      }
+      .xphotos img{
+          width: 15px;
+          height: 15px;
+          margin-right: 8px;
+          margin-top: 13px;
+      }
+      .xphone img{
+          width: 12px;
+          height: 12px;
+          margin-right: 8px;
+          margin-top: 0px;
+      }
+      .xphone{
+          margin-top: 47px;
+      }
+      .xplus{
+          width: 107px;
+          height: 18px;
+          font-size: 12px;
+          margin-top: 0px;
+      }
+      .xwhite img{
+          width: 12px;
+          height: 8px;
+          margin-top: 14px;
+      }
+      .xmail{
+          width: 125px;
+          height: 19px;
+          font-size: 12px;
+      }
+      .xast{
+          width: 85%;
+          height: 19px;
+          /* margin-left: 50px; */
+          margin-top:0px;
+          padding: 0;
+          font-size: 16px;
+          text-align: start;
+      }
+      .footer-container{
+          height: 280px;
+      }
+      .lbig{
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .lleft1{
+          width: 100%;
+        }
+        footer{
+          height: 350px;
+        }
+  }
