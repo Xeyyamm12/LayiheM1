@@ -1,79 +1,299 @@
 @media (max-width: 1250px) {
-    main {
-      width: 675px;
-    }
-    .left {
-      width: 383px;
-    }
-    h1 {
-      font-size: 32px;
-    }
-    .left p {
-      font-size: 14px;
-    }
-    .right {
-      width: 181px;
-    }
-    .section2 {
-      width: 369px;
-    }
-    .footerimg {
-      display: none;
-    }
-    .divdaxil p {
-      font-size: 15px;
-      margin-bottom: 5px;
-    }
-    .divdaxil span {
-      font-size: 11px;
-    }
+  main {
+    width: 675px;
   }
-  @media (max-width: 800px) {
-    main {
-      width: 80%;
-    }
-    .section1 {
-      flex-wrap: wrap;
-    }
-    .left {
-      width: 100%;
-    }
-    h1 {
-      font-size: 26px;
-    }
-    .left p {
-      font-size: 12px;
-    }
-    .right {
-      width: 170px;
-      height: 160px;
-      margin: auto;
-    }
-    .section2 {
-      width: calc(100% - 50px);
-    }
-    .footerdiv {
-      width: 100%;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      box-sizing: border-box;
-      gap: 10px 0px;
-    }
-    .footerimg {
-      display: none;
-    }
-    .divdaxil {
-      width: 48%;
-    }
-    .divdaxil p {
-      font-size: 12px;
-    }
-    .divdaxil span {
-      font-size: 10px;
-    }
+  .left {
+    width: 383px;
   }
-  @media (max-width:400px){
-      .section2{
-          width: 100%;
-      }
+  h1 {
+    font-size: 32px;
   }
+  .left p {
+    font-size: 14px;
+  }
+  .right {
+    width: 181px;
+  }
+  .section2 {
+    width: 369px;
+  }
+  .footerimg {
+    display: none;
+  }
+  .divdaxil p {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .divdaxil span {
+    font-size: 11px;
+  }
+}
+@media (max-width: 800px) {
+  main {
+    width: 80%;
+  }
+  .section1 {
+    flex-wrap: wrap;
+  }
+  .left {
+    width: 100%;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  .left p {
+    font-size: 12px;
+  }
+  .right {
+    width: 170px;
+    height: 160px;
+    margin: auto;
+  }
+  .section2 {
+    width: calc(100% - 50px);
+  }
+  .footerdiv {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    gap: 10px 0px;
+  }
+  .footerimg {
+    display: none;
+  }
+  .divdaxil {
+    width: 48%;
+  }
+  .divdaxil p {
+    font-size: 12px;
+  }
+  .divdaxil span {
+    font-size: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .section2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1300px) and (min-width:850px) {
+  .section--6 {
+    width: 736px;
+    margin-top: 128px;
+    margin-bottom: 105px;
+  }
+  .section--6 > h2 {
+    font-size: 32px;
+    margin-left: 21px;
+  }
+  .section--6 > div {
+    margin-top: 66px;
+  }
+  .divsection {
+    width: 231px;
+    height: 189px;
+    margin-right: 21px;
+    margin-bottom: 23px;
+  }
+  .divsection > p {
+    font-size: 17px;
+    margin-bottom: 18px;
+    margin-top: 6px;
+    margin-left: 12px;
+  }
+  .divsection > span {
+    font-size: 14px;
+    margin-left: 12px;
+  }
+
+  .section--7 {
+    padding: 52px 0px 73px 0px;
+  }
+  .section--7 > div {
+    width: 736px;
+    padding-left: 22px;
+  }
+  .section--7 >div> h2 {
+    font-size: 32px !important;
+  }
+  .infoconteiner {
+    width: 458px;
+    height: 261px;
+    margin-left: 2px;
+    margin-top: 31px;
+    display: flex;
+  }
+  .divinfo {
+    width: calc(100% - 54px);
+  }
+
+  .divtop > p {
+    font-size: 12px;
+    margin-left: 11px;
+    margin-bottom: 15px;
+  }
+
+  .bottomimg {
+    width: 110px;
+    height: 97px;
+    margin-right: 23px;
+  }
+  .bottominfo p {
+    font-size: 17px;
+    margin-top: 23px;
+    margin-bottom: 12px;
+  }
+  .bottominfo>img{
+    width: 18px;
+  }
+}
+
+@media (max-width: 850px) and (min-width:500px) {
+  .section--6 {
+    width:480px;
+    margin-top: 128px;
+    margin-bottom: 105px;
+  }
+  .section--6 > h2 {
+    font-size: 28px;
+    margin-left: 0px;
+  }
+  .section--6 > div {
+    margin-top: 66px;
+    justify-content: space-between;
+  }
+  .divsection {
+    width: 47%;
+    height: 200px;
+    margin-right: 0;
+    margin-bottom: 0px;
+  }
+  .divsection > p {
+    font-size: 17px;
+    margin-bottom: 18px;
+    margin-top: 6px;
+    margin-left: 12px;
+  }
+  .divsection > span {
+    font-size: 14px;
+    margin-left: 12px;
+  }
+
+  .section--7 {
+    padding: 52px 0px 73px 0px;
+  }
+  .section--7 > div {
+    width: 480px;
+    padding-left: 22px;
+  }
+  .section--7 >div> h2 {
+    font-size: 28px ;
+  }
+  .infoconteiner {
+    width: 458px;
+    height: 261px;
+    margin-left: 2px;
+    margin-top: 31px;
+    display: flex;
+  }
+  .divinfo {
+    width: calc(100% - 54px);
+  }
+
+  .divtop > p {
+    font-size: 12px;
+    margin-left: 11px;
+    margin-bottom: 15px;
+  }
+
+  .bottomimg {
+    width: 110px;
+    height: 97px;
+    margin-right: 23px;
+  }
+  .bottominfo p {
+    font-size: 17px;
+    margin-top: 23px;
+    margin-bottom: 12px;
+  }
+  .bottominfo >img{
+    width: 16px;
+  }
+}
+
+
+
+@media (max-width:500px) and (min-width:320px) {
+  .section--6 {
+    width: 310px;
+    margin-top: 61px;
+    margin-bottom: 89px;
+  }
+  .section--6 > h2 {
+    font-size: 26px;
+    margin-left: 0px;
+  }
+  .section--6 > div {
+    width: 185px;
+    margin: auto;
+    margin-top: 45px;
+  }
+  .divsection {
+    width: 100%;
+    height: 152px;
+    margin-right: 0px;
+    margin-bottom: 24px;
+  }
+  .divsection > p {
+    font-size: 14px;
+    margin-bottom: 14px;
+    margin-top: 5px;
+    margin-left: 9px;
+  }
+  .divsection > span {
+    font-size: 12px;
+    margin-left: 9px;
+  }
+
+  .section--7 {
+    padding: 42px 0px 36px 0px;
+  }
+  .section--7 > div {
+    width: 300px;
+    padding-left: 0px;
+  }
+  .section--7 >div> h2 {
+    font-size: 26px ;
+  }
+  .infoconteiner {
+    width: 100%;
+    height: 248px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .divinfo {
+    width: calc(100% - 42px);
+  }
+
+  .divtop > p {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-bottom: 13px;
+  }
+
+  .bottomimg {
+    width: 80px;
+    height: 84px;
+    margin-right: 17px;
+  }
+  .bottominfo p {
+    font-size: 14px;
+    margin-top: 17px;
+    margin-bottom: 14px;
+  }
+  .bottominfo>img{
+    width: 14px;
+  }
+}

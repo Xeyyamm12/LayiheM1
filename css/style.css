@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
 body{
   font-family: roboto;
+  margin: 0px;
+  padding: 0px;
 }
 header {
   width: 1270px;
@@ -228,10 +230,10 @@ padding: 81px 0px 121px 0px;
 .section--7>div{
 width: 1270px;
 margin: auto;
-padding: 37px;
+padding-left: 37px;
 
 }
-.section--7>h2{
+.section--7>div>h2{
 font-size: 55px;
 font-weight: bold;
 margin: 0px;
@@ -276,6 +278,9 @@ font-size: 30px;
 font-weight: bold;
 margin-top: 40px;
 margin-bottom: 20px;
+}
+.bottomimg>img{
+  width: 100%;
 }
 .bottominfo img:hover{
 cursor: pointer;
