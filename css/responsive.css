@@ -320,11 +320,13 @@
     margin-top: 20px;
   }
   .section--5{
+    box-sizing: border-box;
     width: 310px;
     padding-right:0px ;
     margin: 75px auto 0 auto;
   }
   .section--5>ul{
+    box-sizing: border-box;
     font-size: 12px;
     width: 310px;
   }
