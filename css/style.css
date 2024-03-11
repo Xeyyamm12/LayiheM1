@@ -217,6 +217,7 @@ main{
   display: block;
   margin-left: 19px;
 }
+/* x */
 
 
 .section--7{
@@ -282,6 +283,447 @@ margin-bottom: 20px;
 .bottominfo img:hover{
 cursor: pointer;
 box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-
 }
+.lmain-container{
+  background: #9DC9C8;
+  padding: 90px 0;
+}
+.lmain{
+  width:85%;
+  margin:auto;
+  height: 530px;
+  flex-shrink: 0;
+  /* padding: 179px 410px 185px 122px; */
+  }
+  .lcourse{
+      width: 908px;
+  height: 66px;
+  flex-shrink: 0;
+      color: #000;
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.385%; /* 55.762px */
+  margin-bottom: 54px;
   
+  }
+  .lone{
+  width: 170px;
+  height: 32px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 25.346px */
+  }
+  .lnumber{
+      width: 481px;
+  height: 158px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 81.108px */
+  margin-top: -10px;
+  margin-bottom: 0px;
+  }
+  .ltwo{
+      width: 294px;
+  height: 32px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 25.346px */
+  }
+  .lthree{
+      width: 294px;
+  height: 70px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 18.249px */
+  }
+  .lfour{
+      width: 322px;
+  height: 32px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 25.346px */
+  }
+  .lfive{
+      width: 294px;
+  height: 70px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 18.249px */
+  }
+  .lcommon{
+      display: flex;
+      justify-content: space-between;
+      width:40%;
+  }
+  .lright{
+      padding-left: 70px;
+  }
+  @media  screen and (max-width:1280px) and (min-width:992px) {
+      .lcourse{
+          width: 500px;
+          height: 38px;
+          font-size: 32px;
+          margin-bottom: 31px;
+      }
+      .lmain{
+          height: 400px;
+      }
+      .lone{
+          width: 98px;
+          height: 18px;
+          font-size: 16px;
+          margin: 10px 0;
+      }
+      .lnumber{
+          width: 278px;
+          height: 104px;
+          font-size: 46px;
+      }
+      .ltwo .lfour{
+          width: 170px;
+          height: 18px;
+          font-size: 14px;
+      }
+      .lthree .lfive{
+          width: 170px;
+          height: 40px;
+          font-size: 10px;
+      }
+      .ltwo .lfour{
+          margin-bottom: 5px;
+          margin-right: 40px;
+      }
+      .lthree{
+          margin-right: 40px;
+      }
+      .lcommon{
+          margin-bottom: 80px;
+      }
+  }
+  @media screen and (max-width:992px) and (min-width:320px) {
+      .lmain{
+          height: 350px;
+      }
+      
+      .lcourse{
+          width: 45%;
+          height: 63px;
+          font-size: 26px;
+          margin-bottom: 20px;
+      }
+      .lone{
+          width: 79px;
+          height: 14px;
+          font-size: 14px;
+          margin-bottom: 14px;
+      }
+      .lnumber{
+        width: 224px;
+        height: 84px;
+        font-size: 37px;
+      }
+      .ltwo{
+          width: 151px;
+          height: 14px;
+          font-size: 16px;
+          margin-bottom: 10px;
+      }
+      .lthree{
+          width: 150px;
+          height: 35px;
+          font-size: 14px;
+      }
+      .lfour{
+          width: 151px;
+          height: 14px;
+          font-size: 16px;
+          margin-bottom: 10px;
+      }
+      .lfive{
+          width: 140px;
+          height: 38px;
+          font-size: 13px;
+      }
+      .lright{
+          margin-left: 30px;
+      }
+  
+  }
+  @media screen and (max-width:440px) and (min-width:320px){
+      .lcommon{
+          flex-direction: column;
+      }
+      .lthree{
+          width:200px;
+          height:80px;
+      }
+      .lfive{
+          width:160px;
+      }
+      .lright{
+          padding-left:0px;
+          margin-left:0px;
+      }
+      .lcourse{
+          height:84px;
+      }
+
+  }
+  footer{
+      width: 100%;
+    height: 390px;
+  flex-shrink: 0;
+  background: #000;
+  }
+  .footer-container{
+      width:85%;
+      margin: auto;
+  }
+  .llogo{
+      width: 115px;
+  height: 68px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  }
+  .lplus{
+      width: 230px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  }
+  .lmail{
+  width: 269px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  }
+  .llast{
+      width: 230px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.385%; /* 18.249px */
+  margin-top: 100px;
+  padding-top: 42px;
+  }
+  .lbig{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 50px;
+      flex-wrap: wrap;
+  }
+  .lphone{
+      display: flex;
+      margin-top: 59px;
+      align-items: baseline;
+  }
+  .lwhite{
+      display: flex;
+      align-items: baseline;
+  }
+  .lphone img{
+      margin-right: 18px;
+  }
+  .lwhite img{
+      margin-right: 18px;
+  }
+  .lphotos img{
+      margin-right: 18px;
+  }
+  .right1{
+      height: 200px;
+      width: 35%;
+      text-align: end;
+  }
+  .lleft1{
+      width: 55%;
+  }
+  @media  screen and (max-width:1279px) and (min-width:992px) {
+      .lbig{
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          margin-bottom: 50px;
+          padding-top: 40px;
+      }
+      .lleft1{
+          flex-grow: 1;
+          width: 55%;
+          margin-left: 15px;
+      }
+      .right1{
+          margin-left: 20px;
+          margin-top: 20px;
+          height: auto;
+          width: 35%;
+      }
+      .llast{
+          width: 85%;
+          height: 19px;
+          /* margin-left: 50px; */
+          margin-top:0px;
+          padding: 0;
+          font-size: 16px;
+          text-align: start;
+      }
+      .llogo{
+          width: 66px;
+          height: 39px;
+          margin-top: 29px;
+          margin-bottom: 0px;
+      }
+      .lphotos img{
+          width: 19px;
+          height: 19px;
+          margin-right: 10px;
+          margin-top: 17px;
+          margin-bottom: 85px;
+      
+      }
+      .lphone img{
+          width: 15px;
+          height: 15px;
+          margin-right: 10px;
+          margin-top: 0px;
+      }
+      .lphone{
+          margin-top:0px;
+      }
+      .lphotos{
+          margin-bottom: 0px;
+      }
+      .lwhite img{
+          width: 15px;
+          height: 10px;
+          margin-top: 14px;
+      }
+      .lplus{
+          width: 133px;
+          height: 23px;
+          font-size: 14px;
+          margin-top: 0px;
+      }
+      .lmail{
+          width: 155px;
+          height: 23px;
+          font-size: 14px;
+      }
+      .llast{
+          width: 85%;
+          height: 19px;
+          /* margin-left: 50px; */
+          margin-top:0px;
+          padding: 0;
+          font-size: 16px;
+          text-align: start;
+          padding-left: 15px;
+      }
+      .footer{
+          width: 100%;
+          height: 320px;
+      }
+  
+  }
+  @media screen and (max-width:991px) and (min-width:320px) {
+      .llogo{
+          width: 53px;
+          height: 31px;
+          margin-top: 23px;
+          margin-bottom: 0px;
+      }
+      .lphotos img{
+          width: 15px;
+          height: 15px;
+          margin-right: 8px;
+          margin-top: 13px;
+      }
+      .lphone img{
+          width: 12px;
+          height: 12px;
+          margin-right: 8px;
+          margin-top: 0px;
+      }
+      .lphone{
+          margin-top: 47px;
+      }
+      .lplus{
+          width: 107px;
+          height: 18px;
+          font-size: 12px;
+          margin-top: 0px;
+      }
+      .lwhite img{
+          width: 12px;
+          height: 8px;
+          margin-top: 14px;
+      }
+      .lmail{
+          width: 125px;
+          height: 19px;
+          font-size: 12px;
+      }
+      .llast{
+          width: 85%;
+          height: 19px;
+          /* margin-left: 50px; */
+          margin-top:0px;
+          padding: 0;
+          font-size: 16px;
+          text-align: start;
+      }
+      .footer-container{
+          height: 280px;
+      }
+      .lbig{
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .lleft1{
+          width: 100%;
+        }
+        footer{
+          height: 350px;
+        }
+  }
