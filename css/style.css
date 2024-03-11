@@ -220,18 +220,18 @@ main{
 }
 /* x */
 
-.Xeyyam{
+.lmain-container{
   background: #9DC9C8;
   padding: 90px 0;
 }
-.xmain{
+.lmain{
   width:85%;
   margin:auto;
   height: 530px;
   flex-shrink: 0;
   /* padding: 179px 410px 185px 122px; */
   }
-  .xcourse{
+  .lcourse{
       width: 908px;
   height: 66px;
   flex-shrink: 0;
@@ -244,7 +244,7 @@ main{
   margin-bottom: 54px;
   
   }
-  .xone{
+  .lone{
   width: 170px;
   height: 32px;
   flex-shrink: 0;
@@ -255,7 +255,7 @@ main{
   font-weight: 400;
   line-height: 101.385%; /* 25.346px */
   }
-  .xnumber{
+  .lnumber{
       width: 481px;
   height: 158px;
   flex-shrink: 0;
@@ -268,7 +268,7 @@ main{
   margin-top: -10px;
   margin-bottom: 0px;
   }
-  .xtwo{
+  .ltwo{
       width: 294px;
   height: 32px;
   flex-shrink: 0;
@@ -279,7 +279,7 @@ main{
   font-weight: 400;
   line-height: 101.385%; /* 25.346px */
   }
-  .xthree{
+  .lthree{
       width: 294px;
   height: 70px;
   flex-shrink: 0;
@@ -290,7 +290,7 @@ main{
   font-weight: 400;
   line-height: 101.385%; /* 18.249px */
   }
-  .xfour{
+  .lfour{
       width: 322px;
   height: 32px;
   flex-shrink: 0;
@@ -301,7 +301,7 @@ main{
   font-weight: 400;
   line-height: 101.385%; /* 25.346px */
   }
-  .xfive{
+  .lfive{
       width: 294px;
   height: 70px;
   flex-shrink: 0;
@@ -312,121 +312,121 @@ main{
   font-weight: 400;
   line-height: 101.385%; /* 18.249px */
   }
-  .xcommon{
+  .lcommon{
       display: flex;
       justify-content: space-between;
       width:40%;
   }
-  .xright{
+  .lright{
       padding-left: 70px;
   }
   @media  screen and (max-width:1280px) and (min-width:992px) {
-      .xcourse{
+      .lcourse{
           width: 500px;
           height: 38px;
           font-size: 32px;
           margin-bottom: 31px;
       }
-      .xmain{
+      .lmain{
           height: 400px;
       }
-      .xone{
+      .lone{
           width: 98px;
           height: 18px;
           font-size: 16px;
           margin: 10px 0;
       }
-      .xnumber{
+      .lnumber{
           width: 278px;
           height: 104px;
           font-size: 46px;
       }
-      .xtwo .xfour{
+      .ltwo .lfour{
           width: 170px;
           height: 18px;
           font-size: 14px;
       }
-      .xthree .xfive{
+      .lthree .lfive{
           width: 170px;
           height: 40px;
           font-size: 10px;
       }
-      .xtwo .xfour{
+      .ltwo .lfour{
           margin-bottom: 5px;
           margin-right: 40px;
       }
-      .xthree{
+      .lthree{
           margin-right: 40px;
       }
-      .xcommon{
+      .lcommon{
           margin-bottom: 80px;
       }
   }
   @media screen and (max-width:992px) and (min-width:320px) {
-      .xmain{
+      .lmain{
           height: 350px;
       }
       
-      .xcourse{
+      .lcourse{
           width: 45%;
           height: 63px;
           font-size: 26px;
           margin-bottom: 20px;
       }
-      .xone{
+      .lone{
           width: 79px;
           height: 14px;
           font-size: 14px;
           margin-bottom: 14px;
       }
-      .xnumber{
+      .lnumber{
         width: 224px;
         height: 84px;
         font-size: 37px;
       }
-      .xtwo{
+      .ltwo{
           width: 151px;
           height: 14px;
           font-size: 16px;
           margin-bottom: 10px;
       }
-      .xthree{
+      .lthree{
           width: 150px;
           height: 35px;
           font-size: 14px;
       }
-      .xfour{
+      .lfour{
           width: 151px;
           height: 14px;
           font-size: 16px;
           margin-bottom: 10px;
       }
-      .xfive{
+      .lfive{
           width: 140px;
           height: 38px;
           font-size: 13px;
       }
-      .xright{
+      .lright{
           margin-left: 30px;
       }
   
   }
   @media screen and (max-width:440px) and (min-width:320px){
-      .xcommon{
+      .lcommon{
           flex-direction: column;
       }
-      .xthree{
+      .lthree{
           width:200px;
           height:80px;
       }
-      .xfive{
+      .lfive{
           width:160px;
       }
-      .xright{
+      .lright{
           padding-left:0px;
           margin-left:0px;
       }
-      .xcourse{
+      .lcourse{
           height:84px;
       }
 
@@ -441,13 +441,13 @@ main{
       width:85%;
       margin: auto;
   }
-  .xlogo{
+  .llogo{
       width: 115px;
   height: 68px;
   margin-top: 50px;
   margin-bottom: 30px;
   }
-  .xplus{
+  .lplus{
       width: 230px;
   height: 40px;
   flex-shrink: 0;
@@ -458,7 +458,7 @@ main{
   font-weight: 400;
   margin: 0;
   }
-  .xmail{
+  .lmail{
   width: 269px;
   height: 40px;
   flex-shrink: 0;
@@ -469,7 +469,7 @@ main{
   font-weight: 400;
   margin: 0;
   }
-  .xlast{
+  .llast{
       width: 230px;
   height: 40px;
   flex-shrink: 0;
@@ -482,7 +482,7 @@ main{
   margin-top: 100px;
   padding-top: 42px;
   }
-  .xbig{
+  .lbig{
       width: 100%;
       display: flex;
       justify-content: space-between;
@@ -490,22 +490,22 @@ main{
       margin-bottom: 50px;
       flex-wrap: wrap;
   }
-  .xphone{
+  .lphone{
       display: flex;
       margin-top: 59px;
       align-items: baseline;
   }
-  .xwhite{
+  .lwhite{
       display: flex;
       align-items: baseline;
   }
-  .xphone img{
+  .lphone img{
       margin-right: 18px;
   }
-  .xwhite img{
+  .lwhite img{
       margin-right: 18px;
   }
-  .xphotos img{
+  .lphotos img{
       margin-right: 18px;
   }
   .right1{
@@ -513,18 +513,18 @@ main{
       width: 35%;
       text-align: end;
   }
-  .xleft1{
+  .lleft1{
       width: 55%;
   }
   @media  screen and (max-width:1279px) and (min-width:992px) {
-      .xbig{
+      .lbig{
           display: flex;
           justify-content: space-between;
           align-items: flex-start;
           margin-bottom: 50px;
           padding-top: 40px;
       }
-      .xleft1{
+      .lleft1{
           flex-grow: 1;
           width: 55%;
           margin-left: 15px;
@@ -535,7 +535,7 @@ main{
           height: auto;
           width: 35%;
       }
-      .xlast{
+      .llast{
           width: 85%;
           height: 19px;
           /* margin-left: 50px; */
@@ -544,13 +544,13 @@ main{
           font-size: 16px;
           text-align: start;
       }
-      .xlogo{
+      .llogo{
           width: 66px;
           height: 39px;
           margin-top: 29px;
           margin-bottom: 0px;
       }
-      .xphotos img{
+      .lphotos img{
           width: 19px;
           height: 19px;
           margin-right: 10px;
@@ -558,35 +558,35 @@ main{
           margin-bottom: 85px;
       
       }
-      .xphone img{
+      .lphone img{
           width: 15px;
           height: 15px;
           margin-right: 10px;
           margin-top: 0px;
       }
-      .xphone{
+      .lphone{
           margin-top:0px;
       }
-      .xphotos{
+      .lphotos{
           margin-bottom: 0px;
       }
-      .xwhite img{
+      .lwhite img{
           width: 15px;
           height: 10px;
           margin-top: 14px;
       }
-      .xplus{
+      .lplus{
           width: 133px;
           height: 23px;
           font-size: 14px;
           margin-top: 0px;
       }
-      .xmail{
+      .lmail{
           width: 155px;
           height: 23px;
           font-size: 14px;
       }
-      .xlast{
+      .llast{
           width: 85%;
           height: 19px;
           /* margin-left: 50px; */
@@ -603,44 +603,44 @@ main{
   
   }
   @media screen and (max-width:991px) and (min-width:320px) {
-      .xlogo{
+      .llogo{
           width: 53px;
           height: 31px;
           margin-top: 23px;
           margin-bottom: 0px;
       }
-      .xphotos img{
+      .lphotos img{
           width: 15px;
           height: 15px;
           margin-right: 8px;
           margin-top: 13px;
       }
-      .xphone img{
+      .lphone img{
           width: 12px;
           height: 12px;
           margin-right: 8px;
           margin-top: 0px;
       }
-      .xphone{
+      .lphone{
           margin-top: 47px;
       }
-      .xplus{
+      .lplus{
           width: 107px;
           height: 18px;
           font-size: 12px;
           margin-top: 0px;
       }
-      .xwhite img{
+      .lwhite img{
           width: 12px;
           height: 8px;
           margin-top: 14px;
       }
-      .xmail{
+      .lmail{
           width: 125px;
           height: 19px;
           font-size: 12px;
       }
-      .xast{
+      .llast{
           width: 85%;
           height: 19px;
           /* margin-left: 50px; */
